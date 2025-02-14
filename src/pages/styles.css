@@ -1,0 +1,115 @@
+body {
+    font-family: Arial;
+}
+.header {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header img {
+    height: 50px;
+}
+.header button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.header button.reg {
+    background-color: greenyellow;
+    color: blue;
+}
+.header button.log {
+    background-color: white;
+    color: blue;
+}
+.header button:hover {
+    opacity: 85%;
+}
+.contacts {
+    text-align: left;
+}
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+.social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social img {
+    width: 24px;
+    height: 24px;
+    mix-blend-mode: multiply;
+}
+.main {
+    text-align: center;
+    padding: 50px 20px;
+}
+.main h1 {
+    font-size: 36px;
+    color: blue;
+}
+.main p {
+    font-size: 18px;
+    color: gray;
+    margin: 20px 0;
+}
+.main button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.main button.seats {
+    background-color: darkblue;
+    color: white;
+}
+.main button.search {
+    background-color:goldenrod;
+    color: white;
+}
+.main button:hover {
+    opacity: 85%;
+}
+.img_sn {
+    display: inline-block;
+    text-align: center;
+}
+.img_sn img, .img_sn a {
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    margin: 20px;
+    text-decoration: none;
+    mix-blend-mode: multiply;
+}
+.img_sn a {
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.img_sn a:hover {
+    opacity: 80%;
+}
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.footer p {
+    text-align: left;
+    font-size: 14px;
+}
